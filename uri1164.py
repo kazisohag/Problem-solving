@@ -1,0 +1,1 @@
+n = int(input())z = 0for i in range(n):	x = int(input())	v = 1	while v <= x:		z += v		if z == x or z > x:			break		v += 1			if z == x:		print("%d eh perfeito" %x)	else:		print("%d nao eh perfeito" %x)		 
